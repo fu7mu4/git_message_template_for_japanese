@@ -33,6 +33,11 @@ gitのテンプレートがあるんやったらこの カンペ を そのう�
 cat かんぺ >> まえからあるテンプレート
 ```
 
+## もうちょっと
+
+[こっち](./howtouse.md) みて。
+
+
 # License /つこうてええんか?
 
 "THE BEER-WARE LICENSE" (Revision 42):
