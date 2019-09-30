@@ -33,6 +33,8 @@ git commit
 # Add support for <サポートした機能> 
 ```
 
+どれかなーっと思ったら [description](./description.md) 
+
 どうせみんな git bash でvim 使うてるんやろうからvimで説明するけど。
 
 1. hjkl を使うてFix typo のFのところにカーソル移動して、
