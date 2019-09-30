@@ -23,12 +23,14 @@ gitのテンプレートがないんやったらこの カンペ を そのま�
 
 ```bash
 git config --global commit.template ~/.commit_template
-cp かんぺ ~/.commit_template
+git clone https://github.com/fu7mu4/git_message_template_for_japanese.git
+cp git_message_template_for_japanese/commit_messeage_sample.txt  ~/.commit_template
 ```
 gitのテンプレートがあるんやったらこの カンペ を そのうしろに追加したら、知らんけど。
 
 ```bash
-cat かんぺ >> まえからあるテンプレート
+git clone https://github.com/fu7mu4/git_message_template_for_japanese.git
+cat git_message_template_for_japanese/commit_messeage_sample.txt >> YOUR_GIT_COMMIT_TEMPLATE
 ```
 
 ## もうちょっと
