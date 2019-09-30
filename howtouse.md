@@ -4,12 +4,14 @@ gitのテンプレートがないんやったらこの カンペ を そのま�
 
 ```bash
 git config --global commit.template ~/.commit_template
-cp かんぺ ~/.commit_template
+git clone https://github.com/fu7mu4/git_message_template_for_japanese.git
+cp git_message_template_for_japanese/commit_messeage_sample.txt  ~/.commit_template
 ```
 gitのテンプレートがあるんやったらこの カンペ を そのうしろに追加したら、知らんけど。
 
 ```bash
-cat かんぺ >> まえからあるテンプレート
+git clone https://github.com/fu7mu4/git_message_template_for_japanese.git
+cat git_message_template_for_japanese/commit_messeage_sample.txt >> YOUR_GIT_COMMIT_TEMPLATE
 ```
 
 ## もうちょっと続き
@@ -24,7 +26,8 @@ git commit
 下にカンペでるから、これをコピーして書けば楽やねん。
 
 ```
-########################################################################
+#########1#########2#########3#########4#########5#########6#########7#########8
+# see https://github.com/fu7mu4/git_message_template_for_japanese/blob/master/description.md
 # Fix typo
 # Fix compiler warning [ in <場所> ]
 # Fix <直したとこ> [ for 〜のため | to 〜するため ]
@@ -33,7 +36,7 @@ git commit
 # Add support for <サポートした機能> 
 ```
 
-どれかなーっと思ったら [description](./description.md) 
+文字数は数字でわかるし、どれかなーっと思ったら [description](./description.md) URLに移動したらいいし。
 
 どうせみんな git bash でvim 使うてるんやろうからvimで説明するけど。
 
