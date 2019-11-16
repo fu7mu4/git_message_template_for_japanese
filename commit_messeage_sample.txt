@@ -1,3 +1,4 @@
+
 #########1#########2#########3#########4#########5#########6#########7#########8
 # see https://github.com/fu7mu4/git_message_template_for_japanese/blob/master/description.md
 # Fix typo
@@ -14,4 +15,4 @@
 # Improve <改善したもの>
 # Update <更新の対象>
 # Make <変更する対象> <状態>
-
+# Rename <旧名> to <新名>
